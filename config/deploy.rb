@@ -2,7 +2,7 @@
 lock "~> 3.14.0"
 
 set :application, "rails_test"
-set :repo_url, "git@github.com:imbbdev/rails_test.git"
+set :repo_url, "https://github.com/pragathoys/rails_test.git"
 # Deploy to the user's home directory
 set :deploy_to, "/home/deploy/#{fetch :application}"
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads'
